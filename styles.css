@@ -1,0 +1,503 @@
+@import url('https://fonts.googleapis.com/css2?family=Montserrat:wght@400;500;600;700;800&family=Poppins:wght@100;200;300;400;500;600;700;800;900&display=swap');
+
+* {
+    margin: 0;
+    padding: 0;
+    list-style: none;
+}
+
+body {
+    font-family: 'Poppins', sans-serif;
+    margin: 20px 13% auto;
+}
+
+nav {
+    display: flex;
+    justify-content: flex-end;
+    align-items: center;
+}
+
+li, a, button {
+    text-decoration: none;
+}
+
+h2 {
+    font-size: 2rem;
+}
+
+.logo{
+    height: 50px;
+    margin-right: auto;
+    cursor: pointer;
+}
+
+.nav-items li {
+    display: inline-block;
+    padding: 0px 30px;
+    font-size: 1rem;
+    font-weight: 600;
+}
+
+.nav-items li a {
+    color: #717171;
+}
+
+.nav-items li a:hover {
+    color: #000;
+}
+
+nav #icon {
+    color: #717171;
+    font-size: 30px;
+    /* line-height: 80px; */
+    float: right;
+    cursor: pointer;
+    display: none;
+}
+
+/* Title Section */
+
+.title-bg {
+    height: 940px;
+    width: 55%;
+    left: -250px;
+    top: -200px;
+    transform: rotate(15deg);
+    position: absolute;
+    z-index: -1;
+    background-color: #F57B51;
+}
+
+.title-image {
+    width: 500px;
+    float: left;
+    z-index: 1;
+}
+
+.big-heading {
+    font-size: 3rem;
+    margin-top: 80px;
+}
+
+.title-container {
+    height: 500px;
+    padding-top: 5%;
+}
+
+.big-btn {
+    font-weight: 600;
+    font-size: 1rem;
+    color: #fff;
+    background-color: #F57B51;
+    border: none;
+    border-radius: 10px;
+    padding: 20px 40px;
+    margin: 50px auto;
+}
+
+.big-btn:hover {
+    font-weight: 600;
+    font-size: 1rem;
+    color: #fff;
+    background-color: #ef6c40;
+    border: none;
+    border-radius: 10px;
+    padding: 20px 40px;
+    margin: 50px auto;
+}
+
+
+@media (max-width: 1195px) {
+    .big-heading {
+        font-size: 2.6rem;
+        margin-top: 40px;
+    }
+
+    .big-btn {
+        font-weight: 600;
+        font-size: 1rem;
+        color: #fff;
+        background-color: #F57B51;
+        border: none;
+        border-radius: 10px;
+        padding: 20px 40px;
+        margin: 30px auto;
+    }
+
+    .big-btn:hover {
+        font-weight: 600;
+        font-size: 1rem;
+        color: #fff;
+        background-color: #ef6c40;
+        border: none;
+        border-radius: 10px;
+        padding: 20px 40px;
+        margin: 30px auto;
+    }
+
+    .logo{
+        height: 40px;
+        margin-right: auto;
+        cursor: pointer;
+    }
+
+    .nav-items li {
+        display: inline-block;
+        padding: 0px 30px;
+        font-size: 0.8rem;
+        font-weight: 600;
+    }
+}
+
+.title-card {
+    display: flex;
+    justify-content: center;
+}
+
+.title-card .card {
+    height: 130px;
+    width: 240px;
+    margin: auto 30px;
+    border-radius: 20px;
+    background-color: #fff;
+    display: inline-block;
+    z-index: 3;
+    box-shadow: 0 10px 10px 0 rgba(0, 0, 0, 20%);
+    text-align: center;
+}
+
+.title-card-icon {
+    font-size: 35px;
+    color: #F57B51;
+    margin: 20px auto;
+}
+
+.card:hover .title-card-icon {
+    font-size: 35px;
+    color: #ef6c40;
+    margin: 20px auto;
+}
+
+.title-card .card h3 {
+    font-weight: 600;
+    font-size: 14px;
+}
+
+.title-card .card p {
+    font-weight: 600;
+    font-size: 10px;
+    color: #717171;
+}
+
+.white-background {
+    width: 100%;
+    height: 150px;
+    margin-top: 60px;
+    position: absolute;
+    left: 0;
+    right: 0;
+    background-color: #fff;
+}
+
+@media (max-width: 973px) {
+    .title-image {
+        width: 400px;
+        float: left;
+        z-index: 1;
+        margin-top: 40px;
+    }
+}
+
+/* Services Section */
+
+.services-container {
+    margin-top: 100px;
+    height: 500px;
+    z-index: 2;
+}
+
+.services-card {
+    display: flex;
+    justify-content: space-between;
+    margin-top: 100px;
+}
+
+.services-card .card {
+    height: 180px;
+    width: 300px;
+    background-color: #fff;
+    border-radius: 20px;
+    text-align: center;
+    box-shadow: 0 10px 30px rgba(0, 0, 0, 20%);
+}
+
+.services-card .card:hover {
+    height: 180px;
+    width: 300px;
+    background-color: #F57B51;
+    border-radius: 20px;
+    text-align: center;
+    box-shadow: 0 10px 30px rgba(0, 0, 0, 20%);
+}
+
+.services-card .card h2 {
+    color: #F57B51;
+    margin-top: 50px;
+    margin-bottom: 5px;
+}
+
+.services-card .card:hover h2 {
+    color: #fff;
+    margin-top: 50px;
+    margin-bottom: 5px;
+}
+
+.services-card .card p {
+    color: #717171;
+    font-weight: 500;
+}
+
+.services-card .card:hover p {
+    color: #FFB99A;
+    font-weight: 500;
+}
+
+/* Menu Section */
+
+.menu-card {
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: space-between;
+    margin-top: 70px;
+}
+
+.menu-card .card {
+    height: 340px;
+    width: 240px;
+    margin: 30px 0;
+    border-radius: 20px;
+    background-color: #fff;
+    box-shadow: 0 10px 30px 0 #E5E5E5;
+}
+
+.menu-card h4 {
+    font-weight: 600;
+    font-size: 15px;
+    margin: 15px 20px;
+}
+
+.menu-card p {
+    font-weight: 600;
+    font-size: 10px;
+    color: #717171;
+    margin: auto 20px;
+}
+
+.menu-image-div {
+    height: 150px;
+    border-radius: 20px 20px 0 0;
+    background-color: aqua;
+}
+
+.menu-btn {
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: center;
+}
+
+.simple-meals {
+    background: url("./assets/simple-meals.png");
+    background-position: center;
+    background-size: 100% auto;
+}
+
+.deserts {
+    background: url("./assets/deserts.png");
+    background-position: center;
+    background-size: 100% auto;
+}
+
+.snacks {
+    background: url("./assets/snacks.png");
+    background-position: center;
+    background-size: 100% auto;
+}
+
+.south-indian {
+    background: url("./assets/south-indian.png");
+    background-position: center;
+    background-size: 120% auto;
+}
+
+/* Review Section */
+
+.review-container {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+}
+
+.review-container h2 {
+    text-align: center;
+    margin: 100px auto 60px;
+}
+
+.review-box {
+    height: 260px;
+    width: 600px;
+    background-color: #fff;
+    border-radius: 20px;
+    box-shadow: 0 20px 30px 0 rgb(0, 0, 0, 10%);
+    padding-top: 50px;
+
+    margin-bottom: 50px;
+}
+
+.user {
+    display: flex;
+    flex-wrap: wrap;
+    align-items: center;
+    margin-left: 70px;
+}
+
+.user h5{
+    font-weight: 600;
+    font-size: 16px;
+}
+
+.user-img {
+    width: 90px;
+    border-radius: 50%;
+    margin-right: 40px;
+}
+
+.star, .notstar {
+    font-size: 15px;
+    margin: 0 auto;
+}
+
+.star {
+    color: #E38B29;
+}
+
+.notstar {
+    color: #DBDBDB;
+}
+
+.review-text {
+    font-weight: 500;
+    font-size: 14px;
+    color: #4E4E4E;
+    padding: 40px 70px;
+}
+
+/* Location Section */
+
+.location-container {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    padding-top: 100px;
+}
+
+.location-img {
+    margin: 50px;
+    width: 100%;
+}
+
+/* Footer Section */
+
+.footer-container {
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: space-between;
+}
+
+.footer-links-container {
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: space-between;
+}
+
+.footer-links-group {
+    margin: 50px 0 50px 50px;
+}
+
+.footer-links {
+    font-weight: 500;
+    color: #717171;
+    font-size: 14px;
+    margin: 10px auto;
+    cursor: pointer;
+}
+
+.footer-links:hover {
+    font-weight: 500;
+    color: #000;
+    font-size: 14px;
+    margin: 10px auto;
+    cursor: pointer;
+}
+
+.media-icon{
+    font-size: 20px;
+    color: #000;
+    margin: 40px 20px 0 0;
+    cursor: pointer;
+}
+
+.media-icon:hover{
+    font-size: 20px;
+    color: #F57B51;
+    margin: 40px 20px 0 0;
+}
+
+.footer-logo {
+    height: 40px;
+    margin: 50px 20px 0 0;
+}
+
+@media (max-width: 1058px) {
+    .footer-logo {
+        height: 35px;
+        margin: 50px 20px 0 0;
+    }
+
+    .media-icon{
+        font-size: 15px;
+        color: #000;
+        margin: 40px 15px 0 0;
+        cursor: pointer;
+    }
+    
+    .media-icon:hover{
+        font-size: 15px;
+        color: #F57B51;
+        margin: 40px 15px 0 0;
+    }
+
+    .footer-links {
+        font-weight: 500;
+        color: #717171;
+        font-size: 12px;
+        margin: 8px auto;
+        cursor: pointer;
+    }
+    
+    .footer-links:hover {
+        font-weight: 500;
+        color: #000;
+        font-size: 12px;
+        margin: 8px auto;
+        cursor: pointer;
+    }
+
+    .footer-links-group {
+        margin: 50px 0 50px 30px;
+    }
+
+    body {
+        font-family: 'Poppins', sans-serif;
+        margin: 20px 10% auto;
+    }
+}
